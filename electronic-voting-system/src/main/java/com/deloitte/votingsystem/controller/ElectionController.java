@@ -21,7 +21,7 @@ import com.deloitte.votingsystem.service.ElectionService;
 @RestController
 @RequestMapping("/election")
 public class ElectionController {
-	
+
 	@Autowired
 	ElectionService electionService;
 	
